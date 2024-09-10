@@ -1,6 +1,6 @@
 # ACME System1 Automation Library
 
-This UiPath library automates interactions with the ACME System1 website. It handles various operations such as logging in and out, navigating to work items, extracting and updating work item details, and updating the comment and status of each work item. This library can serve as a reusable component for automating workflows related to the ACME System1 website.
+This UiPath library automates interactions with the [ACME System1 website](https://acme-test.uipath.com/). It handles various operations such as logging in and out, navigating to work items, extracting and updating work item details, and updating the comment and status of each work item. This library can serve as a reusable component for automating workflows related to the ACME System1 website.
 
 ## Features
 - Login and logout from the ACME System1 website
@@ -18,8 +18,8 @@ This UiPath library automates interactions with the ACME System1 website. It han
 - Valid credentials for the ACME System1 website
 
 ## Installation
-1. Download or clone this repository:
-   - ACME System 1 (https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/ACME.System1.1.0.4.nupkg)
+1. Download or clone this Library:
+   - [ACME System 1](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/ACME.System1.1.0.4.nupkg)
 3. Open UiPath Studio and load the library into your project.
 
 ## Usage
