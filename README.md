@@ -12,16 +12,15 @@ This UiPath library automates interactions with the ACME System1 website. It han
 
 ## Prerequisites
 - UiPath Studio (latest version)
-- A compatible web browser (Chrome/Firefox)
+- A compatible web browser (Chrome)
 - UiPath Web Automation packages installed
 - Stable internet connection
 - Valid credentials for the ACME System1 website
 
 ## Installation
 1. Download or clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/uipath-acme-system1-automation.git
-2. Open UiPath Studio and load the library into your project.
+   - ACME System 1 (https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/ACME.System1.1.0.4.nupkg)
+3. Open UiPath Studio and load the library into your project.
 
 ## Usage
 1. Import the Library: After cloning or downloading, import the library into your UiPath project.
@@ -30,8 +29,9 @@ This UiPath library automates interactions with the ACME System1 website. It han
    - Login: Automates logging into the ACME System1 website.
    - Navigate to Work Items: Directs the browser to the Work Items page.
    - Extract Work Items: Scrapes data about all work items from the page.
-   - Navigate to Individual Work Item: For each work item, this navigates to its detail page.
-   - Extract Work Item Details: Captures information such as work item ID, type, description, etc.
+   - Navigate to Details Page: For each work item, this navigates to its detail page.
+   - Extract Data from Details Page: Captures information such as Client ID, Account Number, Account Amount.
+   - Click Update Work Item Button: Clicks on the Update Work Item Button to open the update page.
    - Update Work Item: Automates navigating to the update page, where it changes the comment and status fields for each work item.
    - Logout: Logs out from the system.
 
@@ -40,13 +40,13 @@ This UiPath library automates interactions with the ACME System1 website. It han
 2. Navigate and Extract: After logging in, navigate to the Work Items page and extract the available work items.
 3. Iterate through Work Items: For each work item:
    - Navigate to the work item detail page.
-   - Extract details such as item ID, description, and type.
+   - Extract details such as Client ID, Account Number, and Account Amount.
    - Navigate to the update page and update the status and comment fields.
 4. Logout: Once all work items are processed, log out from the ACME System1 website.
 
 ## Customization
-- Browser Type: The library is set to use Chrome by default. You can modify the browser type in the Open Browser activity if required.
-- Selector Updates: Depending on any UI changes to the ACME System1 website, you may need to adjust the selectors for navigating or extracting work item details.
+- Browser Type: The library is set to use Chrome by default.
+- Selector Updates: Depending on any UI changes to the ACME System1 website, the Library will adjust the selectors for navigating or extracting work item details.
   
 ## Error Handling
 - Proper exception handling is built into the activities to ensure that the process continues even if a particular work item cannot be processed.
