@@ -23,6 +23,7 @@ This UiPath library automates interactions with the [ACME System1 website](https
 3. Open UiPath Studio and load the library into your project.
 
 ## Usage
+![Library](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/ACMESystem1.png)
 1. Import the Library: After cloning or downloading, import the library into your UiPath project.
 2. Setup Credentials: Ensure that your ACME System1 login credentials are stored securely, either using UiPath Orchestrator Assets or Windows Credential Manager.
 3. Use Activities: Use the following sequence of activities to automate ACME System1 operations:
@@ -37,12 +38,20 @@ This UiPath library automates interactions with the [ACME System1 website](https
 
 ## Example Workflow
 1. Login: Pass the username and password as input arguments or store them securely using Orchestrator Assets or Credential Manager.
+![Login](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/ACMESystem1_Login.png)
 2. Navigate and Extract: After logging in, navigate to the Work Items page and extract the available work items.
+![Navigate To Work Items](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/Navigate_To_Work_Items.png)
+![Extract Work Items](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/Read_Work_Items.png)
 3. Iterate through Work Items: For each work item:
    - Navigate to the work item detail page.
+![Navigate to Details Page](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/Navigate_to_Details_Page.png)
    - Extract details such as Client ID, Account Number, and Account Amount.
+![Extract Data from Details Page](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/Extract_Data_from_Details_Page.png)
    - Navigate to the update page and update the status and comment fields.
-4. Logout: Once all work items are processed, log out from the ACME System1 website.
+![Click Update Work Item](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/Click_Update_Work_Item.png)
+![Update Work Item](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/Update_Work_Item.png)
+5. Logout: Once all work items are processed, log out from the ACME System1 website.
+![Logout](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/ACMESystem1_Logout.png)
 
 ## Customization
 - Browser Type: The library is set to use Chrome by default.
