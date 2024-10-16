@@ -19,7 +19,6 @@ This UiPath library automates interactions with the [ACME System1 website](https
 
 ## Installation
 1. Download or clone this Library:
-   - [ACME System 1](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/ACME.System1.1.0.4.nupkg)
 3. Open UiPath Studio and load the library into your project.
 
 ## Usage
