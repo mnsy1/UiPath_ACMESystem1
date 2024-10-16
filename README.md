@@ -40,8 +40,9 @@ This UiPath library automates interactions with the [ACME System1 website](https
 1. Login: Pass the username and password as input arguments or store them securely using Orchestrator Assets or Credential Manager.
 ![Login](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/ACMESystem1_Login.png)
 2. Navigate and Extract: After logging in, navigate to the Work Items page and extract the available work items.
-![Navigate To Work Items](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/Navigate_To_Work_Items.png)
-![Extract Work Items](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/Read_Work_Items.png)
+- Navigate To Work Items
+- Extract Work Items
+![Extract Work Items](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/Extract_Work_Items.png)
 3. Iterate through Work Items: For each work item:
    - Navigate to the work item detail page.
 ![Navigate to Details Page](https://github.com/mnsy1/UiPath_ACMESystem1/blob/main/img/Navigate_to_Details_Page.png)
